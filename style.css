@@ -1,0 +1,89 @@
+body {
+  background-color: #8FE3CF;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #256D85;
+  padding-bottom: 20px;
+  color: white;
+  width: 50%;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px 0px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#h1 {
+  margin-bottom: 30px ;
+}
+
+.data-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  color: white;
+  background-color: #2B4865;
+  width: 10vw;
+  height: 12vw;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  margin: 20px;
+  border-radius: 20px;  
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px 0px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card p:nth-child(1){
+  color: white;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.card p:nth-child(2) {
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.icons {
+  width: 5rem;
+  height: 5rem;
+  
+}
+
+
+#input {
+  font-size: medium;
+  font-weight: bold;
+  text-align: center; 
+  width: 190px;
+  height: 40px;
+  border-radius: 10px ;
+  box-shadow: rgba(0, 0, 0, 0) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+
+#button {
+  background-color: white;
+  color: #002B5B;
+  font-weight: bold;
+  width: 90px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
